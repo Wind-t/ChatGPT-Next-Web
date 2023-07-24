@@ -3,8 +3,9 @@ import "./styles/globals.scss";
 import "./styles/markdown.scss";
 import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
+import { type Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "ChatGPT Windt",
   description: "您的个人 ChatGPT 聊天机器人.",
   viewport: {
